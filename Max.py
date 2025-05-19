@@ -19,7 +19,7 @@ def Programm():
     Problem3 = "Müll nicht abgeholt"
 
     Probleme = [Problem1,Problem2,Problem3]
-    print(Probleme)
+    
 
 Programm()       
 

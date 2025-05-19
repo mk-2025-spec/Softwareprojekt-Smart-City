@@ -26,7 +26,7 @@ def main():
         else:
             print("Fehler: Bitte nur 'up', 'down' oder 'exit' ein.")
         
-        if bewertung1 > 5:
+        if bewertung1 >= 5:
             print("Diese Anzeige wurde soeben an den staat gesendet")
             
         print("===ERGEBNISS===")
@@ -49,7 +49,7 @@ def main():
         else:
             print("Fehler: Bitte nur 'up', 'down' oder 'exit' ein.")
         
-        if bewertung2 > 5:
+        if bewertung2 >= 5:
             print("Diese Anzeige wurde soeben an den staat gesendet")
             
         print("===ERGEBNISS===")
@@ -72,11 +72,12 @@ def main():
         else:
             print("Fehler: Bitte nur 'up', 'down' oder 'exit' ein.")
         
-        if bewertung3 > 5:
+        if bewertung3 >= 5:
             print("Diese Anzeige wurde soeben an den staat gesendet")
             
         print("===ERGEBNISS===")
         print(problem3, "-->", bewertung3)
         
         print("Es gibt keine weiteren Probleme")
+    print("Es gibt keine weiteren Probleme")
 main()

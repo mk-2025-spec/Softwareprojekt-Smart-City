@@ -12,7 +12,7 @@ def Programm():
 
     Autor3 = "Maria Keller"
     Datum3  = "05.02.3025"
-    Problem3 = "Wasserschaden im Tunnel"
+    Problem3 = "Wasserschaden im Tunnel"                                             #probleme bestimmen mit variablen und erstellen mehrerer 
     Status3 = "In Bearbeitung"
 
     Autor4 = "Lukas Bauer"
@@ -48,13 +48,8 @@ def Programm():
     burger6 = [Autor6, Datum6, Problem6, Status6]
     burger7 = [Autor7, Datum7, Problem7, Status7]
     burger8 = [Autor8, Datum8,Problem8, Status8]
-    
-
-    
     #eingabe = input("Gib eine neue Information ein: ") 
     #burger.append(eingabe)  
-    
-    
     print("Burger 1:", burger1)
     print("Burger 2:", burger2)
     print("Burger 3:", burger3)
@@ -64,8 +59,10 @@ def Programm():
     print("Burger 7:", burger7)
     print("Burger 8:", burger8)
     
-Programm()       
-
+    #Filterfunktion
+    
+def filterfunktion():
+    
 
         
 

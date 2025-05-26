@@ -38,12 +38,13 @@ def main():
                 print("Fehler: Bitte nur 'up', 'down' oder 'exit' ein.")
         
             if bewertung[i] >= 5:
-                print("Diese Anzeige wurde soeben an den staat gesendet")
+                print("")
                 
                 print("===ERGEBNISS===")
                 print(problem[i], "--->", bewertung[i])
+                print("Diese Anzeige wurde soeben an den staat gesendet")
 #^ So habe ich mir ein Like-System gebaut mit der hilfe eines Zählers für die jeweiligen Probleme         
-#^ "up" für + 1Like "down" für - 1Like "exit" für nächstes Problem    
+#^ "up" für + 1 Like "down" für - 1 Like "exit" für nächstes Problem    
 #^ Am ende habe ich noch eine Fehlermeldung bei Fehlerhaftereingabe programmiert und einen Print Befehl der das Ergebniss zusammenfasst
 
 main()

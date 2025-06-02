@@ -20,3 +20,5 @@ while True:
     
     else:
         print("Ungültige Eingabe. Bitte gib 1 oder 2 ein.")
+        
+        gg
